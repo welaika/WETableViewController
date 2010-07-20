@@ -1,10 +1,3 @@
-//
-//  ContactInformation.h
-//  iSindone
-//
-//  Created by Stefano Verna on 22/02/10.
-//  Copyright 2010 WeLaika. All rights reserved.
-//
 #import <Foundation/Foundation.h>
 
 typedef enum {

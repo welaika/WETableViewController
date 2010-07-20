@@ -1,10 +1,3 @@
-//
-//  WETextViewEditViewController.m
-//  iSindone
-//
-//  Created by Stefano Verna on 01/03/10.
-//  Copyright 2010 WeLaika. All rights reserved.
-//
 #import "WEOptionsEditViewController.h"
 #import "WEEditableCaptionedCellController.h"
 @implementation WEOptionsEditViewController

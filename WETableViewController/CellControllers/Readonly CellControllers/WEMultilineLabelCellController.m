@@ -1,10 +1,3 @@
-//
-//  WEMultilineLabelCellController.m
-//  iSindone
-//
-//  Created by Stefano Verna on 21/02/10.
-//  Copyright 2010 WeLaika. All rights reserved.
-//
 #import "WEMultilineLabelCellController.h"
 @interface WEMultilineLabelCellController()
 - (CGFloat) descriptionHeight;
@@ -28,11 +21,6 @@
 	[super dealloc];
 }
 
-//
-// tableView:cellForRowAtIndexPath:
-//
-// Returns the cell for a given indexPath.
-//
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
 	static NSString *cellIdentifier = @"MultilineTextDataCell";

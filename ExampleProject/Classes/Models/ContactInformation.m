@@ -1,10 +1,3 @@
-//
-//  ContactInformation.m
-//  iSindone
-//
-//  Created by Stefano Verna on 22/02/10.
-//  Copyright 2010 WeLaika. All rights reserved.
-//
 
 #import "NSString+URLEncoding.h"
 #import "ContactInformation.h"

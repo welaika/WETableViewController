@@ -1,10 +1,3 @@
-//
-//  WEDatePickerEditViewController.m
-//  iSindone
-//
-//  Created by Stefano Verna on 28/02/10.
-//  Copyright 2010 WeLaika. All rights reserved.
-//
 #import "WEDatePickerEditViewController.h"
 #import "WEEditableCaptionedCellController.h"
 

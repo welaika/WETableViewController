@@ -1,10 +1,3 @@
-//
-//  UIColor+Hex.m
-//  iSindone
-//
-//  Created by Stefano Verna on 21/02/10.
-//  Copyright 2010 WeLaika. All rights reserved.
-//
 #import "UIColor+Hex.h"
 
 @implementation UIColor(Hexadecimal)

@@ -1,9 +1,3 @@
-//
-//  NSString+URLEncoding.m
-//  iSindone
-//
-//  Created by Stefano Verna on 05/03/10.
-//
 #import "NSString+URLEncoding.h"
 
 @implementation NSString(URLEncoding) 

@@ -1,10 +1,3 @@
-//
-//  ReadOnlyExampleTableViewController.m
-//  ExampleProject
-//
-//  Created by Stefano Verna on 20/07/10.
-//  Copyright 2010 Seac02 s.r.l. All rights reserved.
-//
 
 #import "ReadOnlyExampleTableViewController.h"
 #import "WECaptionedCellController.h"

@@ -5,7 +5,6 @@
 @end
 @implementation KeyboardDatePicker
 @synthesize picker = _picker;
-// The designated initializer. Override to perform setup that is required before the view is loaded.
 - (id) init
 {
 	if (self = [super init]) {
