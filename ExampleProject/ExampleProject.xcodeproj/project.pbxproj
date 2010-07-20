@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* ExampleProjectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ExampleProjectAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		C1E57A7211F5DC6800E40884 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57A5B11F5DC6800E40884 /* NSString+URLEncoding.m */; };
+		C1E57A7311F5DC6800E40884 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57A5E11F5DC6800E40884 /* RootViewController.m */; };
+		C1E57A7411F5DC6800E40884 /* ExampleSelectorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57A6111F5DC6800E40884 /* ExampleSelectorTableViewController.m */; };
+		C1E57A7511F5DC6800E40884 /* ReadOnlyExampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57A6311F5DC6800E40884 /* ReadOnlyExampleTableViewController.m */; };
+		C1E57A7711F5DC6800E40884 /* WEAddressCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57A6811F5DC6800E40884 /* WEAddressCellController.m */; };
+		C1E57A7811F5DC6800E40884 /* WEContactCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57A6A11F5DC6800E40884 /* WEContactCellController.m */; };
+		C1E57A7911F5DC6800E40884 /* WEGenericAddressEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57A6C11F5DC6800E40884 /* WEGenericAddressEditViewController.m */; };
+		C1E57A7A11F5DC6800E40884 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57A6F11F5DC6800E40884 /* Address.m */; };
+		C1E57A7B11F5DC6800E40884 /* ContactInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57A7111F5DC6800E40884 /* ContactInformation.m */; };
+		C1E57AD411F5E13400E40884 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57AAF11F5E13400E40884 /* UIColor+Hex.m */; };
+		C1E57AD511F5E13400E40884 /* KeyboardDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57AB511F5E13400E40884 /* KeyboardDatePicker.m */; };
+		C1E57AD611F5E13400E40884 /* WEGenericDatePickerEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57AB711F5E13400E40884 /* WEGenericDatePickerEditViewController.m */; };
+		C1E57AD711F5E13400E40884 /* WEGenericEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57AB911F5E13400E40884 /* WEGenericEditViewController.m */; };
+		C1E57AD811F5E13400E40884 /* WEGenericOptionsEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57ABB11F5E13400E40884 /* WEGenericOptionsEditViewController.m */; };
+		C1E57AD911F5E13400E40884 /* WEGenericTextFieldEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57ABD11F5E13400E40884 /* WEGenericTextFieldEditViewController.m */; };
+		C1E57ADA11F5E13400E40884 /* WEGenericTextViewEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57ABF11F5E13400E40884 /* WEGenericTextViewEditViewController.m */; };
+		C1E57ADB11F5E13400E40884 /* WEDatePickerCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57AC111F5E13400E40884 /* WEDatePickerCellController.m */; };
+		C1E57ADC11F5E13400E40884 /* WEEditableCaptionedCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57AC311F5E13400E40884 /* WEEditableCaptionedCellController.m */; };
+		C1E57ADD11F5E13400E40884 /* WEOptionsCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57AC511F5E13400E40884 /* WEOptionsCellController.m */; };
+		C1E57ADE11F5E13400E40884 /* WETextFieldCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57AC711F5E13400E40884 /* WETextFieldCellController.m */; };
+		C1E57ADF11F5E13400E40884 /* WETextViewCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57AC911F5E13400E40884 /* WETextViewCellController.m */; };
+		C1E57AE011F5E13400E40884 /* WEActionCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57ACC11F5E13400E40884 /* WEActionCellController.m */; };
+		C1E57AE111F5E13400E40884 /* WECaptionedCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57ACE11F5E13400E40884 /* WECaptionedCellController.m */; };
+		C1E57AE211F5E13400E40884 /* WEMultilineLabelCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57AD011F5E13400E40884 /* WEMultilineLabelCellController.m */; };
+		C1E57AE311F5E13400E40884 /* WEGenericTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57AD311F5E13400E40884 /* WEGenericTableViewController.m */; };
+		C1E57AEC11F5E2EC00E40884 /* EditFormExampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57AEB11F5E2EC00E40884 /* EditFormExampleTableViewController.m */; };
+		C1E57B8411F5ED3100E40884 /* CustomCellsExampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E57B8311F5ED3100E40884 /* CustomCellsExampleTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* ExampleProjectAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleProjectAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* ExampleProjectAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleProjectAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* ExampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* ExampleProject_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleProject_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* ExampleProject-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ExampleProject-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C1E57A5A11F5DC6800E40884 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		C1E57A5B11F5DC6800E40884 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		C1E57A5D11F5DC6800E40884 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C1E57A5E11F5DC6800E40884 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C1E57A6011F5DC6800E40884 /* ExampleSelectorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleSelectorTableViewController.h; sourceTree = "<group>"; };
+		C1E57A6111F5DC6800E40884 /* ExampleSelectorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleSelectorTableViewController.m; sourceTree = "<group>"; };
+		C1E57A6211F5DC6800E40884 /* ReadOnlyExampleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadOnlyExampleTableViewController.h; sourceTree = "<group>"; };
+		C1E57A6311F5DC6800E40884 /* ReadOnlyExampleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadOnlyExampleTableViewController.m; sourceTree = "<group>"; };
+		C1E57A6711F5DC6800E40884 /* WEAddressCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEAddressCellController.h; sourceTree = "<group>"; };
+		C1E57A6811F5DC6800E40884 /* WEAddressCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEAddressCellController.m; sourceTree = "<group>"; };
+		C1E57A6911F5DC6800E40884 /* WEContactCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEContactCellController.h; sourceTree = "<group>"; };
+		C1E57A6A11F5DC6800E40884 /* WEContactCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEContactCellController.m; sourceTree = "<group>"; };
+		C1E57A6B11F5DC6800E40884 /* WEGenericAddressEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEGenericAddressEditViewController.h; sourceTree = "<group>"; };
+		C1E57A6C11F5DC6800E40884 /* WEGenericAddressEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEGenericAddressEditViewController.m; sourceTree = "<group>"; };
+		C1E57A6E11F5DC6800E40884 /* Address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Address.h; sourceTree = "<group>"; };
+		C1E57A6F11F5DC6800E40884 /* Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Address.m; sourceTree = "<group>"; };
+		C1E57A7011F5DC6800E40884 /* ContactInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactInformation.h; sourceTree = "<group>"; };
+		C1E57A7111F5DC6800E40884 /* ContactInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactInformation.m; sourceTree = "<group>"; };
+		C1E57AAE11F5E13400E40884 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		C1E57AAF11F5E13400E40884 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		C1E57AB111F5E13400E40884 /* CellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellController.h; sourceTree = "<group>"; };
+		C1E57AB411F5E13400E40884 /* KeyboardDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardDatePicker.h; sourceTree = "<group>"; };
+		C1E57AB511F5E13400E40884 /* KeyboardDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardDatePicker.m; sourceTree = "<group>"; };
+		C1E57AB611F5E13400E40884 /* WEGenericDatePickerEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEGenericDatePickerEditViewController.h; sourceTree = "<group>"; };
+		C1E57AB711F5E13400E40884 /* WEGenericDatePickerEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEGenericDatePickerEditViewController.m; sourceTree = "<group>"; };
+		C1E57AB811F5E13400E40884 /* WEGenericEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEGenericEditViewController.h; sourceTree = "<group>"; };
+		C1E57AB911F5E13400E40884 /* WEGenericEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEGenericEditViewController.m; sourceTree = "<group>"; };
+		C1E57ABA11F5E13400E40884 /* WEGenericOptionsEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEGenericOptionsEditViewController.h; sourceTree = "<group>"; };
+		C1E57ABB11F5E13400E40884 /* WEGenericOptionsEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEGenericOptionsEditViewController.m; sourceTree = "<group>"; };
+		C1E57ABC11F5E13400E40884 /* WEGenericTextFieldEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEGenericTextFieldEditViewController.h; sourceTree = "<group>"; };
+		C1E57ABD11F5E13400E40884 /* WEGenericTextFieldEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEGenericTextFieldEditViewController.m; sourceTree = "<group>"; };
+		C1E57ABE11F5E13400E40884 /* WEGenericTextViewEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEGenericTextViewEditViewController.h; sourceTree = "<group>"; };
+		C1E57ABF11F5E13400E40884 /* WEGenericTextViewEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEGenericTextViewEditViewController.m; sourceTree = "<group>"; };
+		C1E57AC011F5E13400E40884 /* WEDatePickerCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEDatePickerCellController.h; sourceTree = "<group>"; };
+		C1E57AC111F5E13400E40884 /* WEDatePickerCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEDatePickerCellController.m; sourceTree = "<group>"; };
+		C1E57AC211F5E13400E40884 /* WEEditableCaptionedCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEEditableCaptionedCellController.h; sourceTree = "<group>"; };
+		C1E57AC311F5E13400E40884 /* WEEditableCaptionedCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEEditableCaptionedCellController.m; sourceTree = "<group>"; };
+		C1E57AC411F5E13400E40884 /* WEOptionsCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEOptionsCellController.h; sourceTree = "<group>"; };
+		C1E57AC511F5E13400E40884 /* WEOptionsCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEOptionsCellController.m; sourceTree = "<group>"; };
+		C1E57AC611F5E13400E40884 /* WETextFieldCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WETextFieldCellController.h; sourceTree = "<group>"; };
+		C1E57AC711F5E13400E40884 /* WETextFieldCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WETextFieldCellController.m; sourceTree = "<group>"; };
+		C1E57AC811F5E13400E40884 /* WETextViewCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WETextViewCellController.h; sourceTree = "<group>"; };
+		C1E57AC911F5E13400E40884 /* WETextViewCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WETextViewCellController.m; sourceTree = "<group>"; };
+		C1E57ACB11F5E13400E40884 /* WEActionCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEActionCellController.h; sourceTree = "<group>"; };
+		C1E57ACC11F5E13400E40884 /* WEActionCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEActionCellController.m; sourceTree = "<group>"; };
+		C1E57ACD11F5E13400E40884 /* WECaptionedCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WECaptionedCellController.h; sourceTree = "<group>"; };
+		C1E57ACE11F5E13400E40884 /* WECaptionedCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WECaptionedCellController.m; sourceTree = "<group>"; };
+		C1E57ACF11F5E13400E40884 /* WEMultilineLabelCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEMultilineLabelCellController.h; sourceTree = "<group>"; };
+		C1E57AD011F5E13400E40884 /* WEMultilineLabelCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEMultilineLabelCellController.m; sourceTree = "<group>"; };
+		C1E57AD111F5E13400E40884 /* WECellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WECellController.h; sourceTree = "<group>"; };
+		C1E57AD211F5E13400E40884 /* WEGenericTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEGenericTableViewController.h; sourceTree = "<group>"; };
+		C1E57AD311F5E13400E40884 /* WEGenericTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEGenericTableViewController.m; sourceTree = "<group>"; };
+		C1E57AEA11F5E2EC00E40884 /* EditFormExampleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditFormExampleTableViewController.h; sourceTree = "<group>"; };
+		C1E57AEB11F5E2EC00E40884 /* EditFormExampleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditFormExampleTableViewController.m; sourceTree = "<group>"; };
+		C1E57B8211F5ED3100E40884 /* CustomCellsExampleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellsExampleTableViewController.h; sourceTree = "<group>"; };
+		C1E57B8311F5ED3100E40884 /* CustomCellsExampleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellsExampleTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C1E57A5911F5DC6800E40884 /* Additions */,
+				C1E57A5C11F5DC6800E40884 /* Controllers */,
+				C1E57A6411F5DC6800E40884 /* Custom WECellControllers */,
+				C1E57A6D11F5DC6800E40884 /* Models */,
+				1D3623240D0F684500981E51 /* ExampleProjectAppDelegate.h */,
+				1D3623250D0F684500981E51 /* ExampleProjectAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* ExampleProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				C1E57AAC11F5E13400E40884 /* WEGenericTableViewController */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* ExampleProject_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* ExampleProject-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1E57A5911F5DC6800E40884 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				C1E57A5A11F5DC6800E40884 /* NSString+URLEncoding.h */,
+				C1E57A5B11F5DC6800E40884 /* NSString+URLEncoding.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		C1E57A5C11F5DC6800E40884 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1E57A5D11F5DC6800E40884 /* RootViewController.h */,
+				C1E57A5E11F5DC6800E40884 /* RootViewController.m */,
+				C1E57A5F11F5DC6800E40884 /* WEGenericTableViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C1E57A5F11F5DC6800E40884 /* WEGenericTableViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1E57A6011F5DC6800E40884 /* ExampleSelectorTableViewController.h */,
+				C1E57A6111F5DC6800E40884 /* ExampleSelectorTableViewController.m */,
+				C1E57A6211F5DC6800E40884 /* ReadOnlyExampleTableViewController.h */,
+				C1E57A6311F5DC6800E40884 /* ReadOnlyExampleTableViewController.m */,
+				C1E57AEA11F5E2EC00E40884 /* EditFormExampleTableViewController.h */,
+				C1E57AEB11F5E2EC00E40884 /* EditFormExampleTableViewController.m */,
+				C1E57B8211F5ED3100E40884 /* CustomCellsExampleTableViewController.h */,
+				C1E57B8311F5ED3100E40884 /* CustomCellsExampleTableViewController.m */,
+			);
+			path = WEGenericTableViewControllers;
+			sourceTree = "<group>";
+		};
+		C1E57A6411F5DC6800E40884 /* Custom WECellControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1E57A6711F5DC6800E40884 /* WEAddressCellController.h */,
+				C1E57A6811F5DC6800E40884 /* WEAddressCellController.m */,
+				C1E57A6911F5DC6800E40884 /* WEContactCellController.h */,
+				C1E57A6A11F5DC6800E40884 /* WEContactCellController.m */,
+				C1E57A6B11F5DC6800E40884 /* WEGenericAddressEditViewController.h */,
+				C1E57A6C11F5DC6800E40884 /* WEGenericAddressEditViewController.m */,
+			);
+			path = "Custom WECellControllers";
+			sourceTree = "<group>";
+		};
+		C1E57A6D11F5DC6800E40884 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C1E57A6E11F5DC6800E40884 /* Address.h */,
+				C1E57A6F11F5DC6800E40884 /* Address.m */,
+				C1E57A7011F5DC6800E40884 /* ContactInformation.h */,
+				C1E57A7111F5DC6800E40884 /* ContactInformation.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C1E57AAC11F5E13400E40884 /* WEGenericTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C1E57AAD11F5E13400E40884 /* Additions */,
+				C1E57AB011F5E13400E40884 /* CellControllers */,
+				C1E57AD211F5E13400E40884 /* WEGenericTableViewController.h */,
+				C1E57AD311F5E13400E40884 /* WEGenericTableViewController.m */,
+			);
+			name = WEGenericTableViewController;
+			path = ../WEGenericTableViewController;
+			sourceTree = SOURCE_ROOT;
+		};
+		C1E57AAD11F5E13400E40884 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				C1E57AAE11F5E13400E40884 /* UIColor+Hex.h */,
+				C1E57AAF11F5E13400E40884 /* UIColor+Hex.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		C1E57AB011F5E13400E40884 /* CellControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1E57AB111F5E13400E40884 /* CellController.h */,
+				C1E57AB211F5E13400E40884 /* Editable CellControllers */,
+				C1E57ACA11F5E13400E40884 /* Readonly CellControllers */,
+				C1E57AD111F5E13400E40884 /* WECellController.h */,
+			);
+			path = CellControllers;
+			sourceTree = "<group>";
+		};
+		C1E57AB211F5E13400E40884 /* Editable CellControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1E57AB311F5E13400E40884 /* EditViewControllers */,
+				C1E57AC011F5E13400E40884 /* WEDatePickerCellController.h */,
+				C1E57AC111F5E13400E40884 /* WEDatePickerCellController.m */,
+				C1E57AC211F5E13400E40884 /* WEEditableCaptionedCellController.h */,
+				C1E57AC311F5E13400E40884 /* WEEditableCaptionedCellController.m */,
+				C1E57AC411F5E13400E40884 /* WEOptionsCellController.h */,
+				C1E57AC511F5E13400E40884 /* WEOptionsCellController.m */,
+				C1E57AC611F5E13400E40884 /* WETextFieldCellController.h */,
+				C1E57AC711F5E13400E40884 /* WETextFieldCellController.m */,
+				C1E57AC811F5E13400E40884 /* WETextViewCellController.h */,
+				C1E57AC911F5E13400E40884 /* WETextViewCellController.m */,
+			);
+			path = "Editable CellControllers";
+			sourceTree = "<group>";
+		};
+		C1E57AB311F5E13400E40884 /* EditViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1E57AB411F5E13400E40884 /* KeyboardDatePicker.h */,
+				C1E57AB511F5E13400E40884 /* KeyboardDatePicker.m */,
+				C1E57AB611F5E13400E40884 /* WEGenericDatePickerEditViewController.h */,
+				C1E57AB711F5E13400E40884 /* WEGenericDatePickerEditViewController.m */,
+				C1E57AB811F5E13400E40884 /* WEGenericEditViewController.h */,
+				C1E57AB911F5E13400E40884 /* WEGenericEditViewController.m */,
+				C1E57ABA11F5E13400E40884 /* WEGenericOptionsEditViewController.h */,
+				C1E57ABB11F5E13400E40884 /* WEGenericOptionsEditViewController.m */,
+				C1E57ABC11F5E13400E40884 /* WEGenericTextFieldEditViewController.h */,
+				C1E57ABD11F5E13400E40884 /* WEGenericTextFieldEditViewController.m */,
+				C1E57ABE11F5E13400E40884 /* WEGenericTextViewEditViewController.h */,
+				C1E57ABF11F5E13400E40884 /* WEGenericTextViewEditViewController.m */,
+			);
+			path = EditViewControllers;
+			sourceTree = "<group>";
+		};
+		C1E57ACA11F5E13400E40884 /* Readonly CellControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1E57ACB11F5E13400E40884 /* WEActionCellController.h */,
+				C1E57ACC11F5E13400E40884 /* WEActionCellController.m */,
+				C1E57ACD11F5E13400E40884 /* WECaptionedCellController.h */,
+				C1E57ACE11F5E13400E40884 /* WECaptionedCellController.m */,
+				C1E57ACF11F5E13400E40884 /* WEMultilineLabelCellController.h */,
+				C1E57AD011F5E13400E40884 /* WEMultilineLabelCellController.m */,
+			);
+			path = "Readonly CellControllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* ExampleProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ExampleProject" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleProject;
+			productName = ExampleProject;
+			productReference = 1D6058910D05DD3D006BFB54 /* ExampleProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ExampleProject" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* ExampleProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* ExampleProjectAppDelegate.m in Sources */,
+				C1E57A7211F5DC6800E40884 /* NSString+URLEncoding.m in Sources */,
+				C1E57A7311F5DC6800E40884 /* RootViewController.m in Sources */,
+				C1E57A7411F5DC6800E40884 /* ExampleSelectorTableViewController.m in Sources */,
+				C1E57A7511F5DC6800E40884 /* ReadOnlyExampleTableViewController.m in Sources */,
+				C1E57A7711F5DC6800E40884 /* WEAddressCellController.m in Sources */,
+				C1E57A7811F5DC6800E40884 /* WEContactCellController.m in Sources */,
+				C1E57A7911F5DC6800E40884 /* WEGenericAddressEditViewController.m in Sources */,
+				C1E57A7A11F5DC6800E40884 /* Address.m in Sources */,
+				C1E57A7B11F5DC6800E40884 /* ContactInformation.m in Sources */,
+				C1E57AD411F5E13400E40884 /* UIColor+Hex.m in Sources */,
+				C1E57AD511F5E13400E40884 /* KeyboardDatePicker.m in Sources */,
+				C1E57AD611F5E13400E40884 /* WEGenericDatePickerEditViewController.m in Sources */,
+				C1E57AD711F5E13400E40884 /* WEGenericEditViewController.m in Sources */,
+				C1E57AD811F5E13400E40884 /* WEGenericOptionsEditViewController.m in Sources */,
+				C1E57AD911F5E13400E40884 /* WEGenericTextFieldEditViewController.m in Sources */,
+				C1E57ADA11F5E13400E40884 /* WEGenericTextViewEditViewController.m in Sources */,
+				C1E57ADB11F5E13400E40884 /* WEDatePickerCellController.m in Sources */,
+				C1E57ADC11F5E13400E40884 /* WEEditableCaptionedCellController.m in Sources */,
+				C1E57ADD11F5E13400E40884 /* WEOptionsCellController.m in Sources */,
+				C1E57ADE11F5E13400E40884 /* WETextFieldCellController.m in Sources */,
+				C1E57ADF11F5E13400E40884 /* WETextViewCellController.m in Sources */,
+				C1E57AE011F5E13400E40884 /* WEActionCellController.m in Sources */,
+				C1E57AE111F5E13400E40884 /* WECaptionedCellController.m in Sources */,
+				C1E57AE211F5E13400E40884 /* WEMultilineLabelCellController.m in Sources */,
+				C1E57AE311F5E13400E40884 /* WEGenericTableViewController.m in Sources */,
+				C1E57AEC11F5E2EC00E40884 /* EditFormExampleTableViewController.m in Sources */,
+				C1E57B8411F5ED3100E40884 /* CustomCellsExampleTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ExampleProject_Prefix.pch;
+				INFOPLIST_FILE = "ExampleProject-Info.plist";
+				PRODUCT_NAME = ExampleProject;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ExampleProject_Prefix.pch;
+				INFOPLIST_FILE = "ExampleProject-Info.plist";
+				PRODUCT_NAME = ExampleProject;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ExampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ExampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
