@@ -7,15 +7,15 @@
 //
 
 #import "WEAddressCellController.h"
-#import "WEGenericAddressEditViewController.h"
+#import "WEAddressEditViewController.h"
 
 @implementation WEAddressCellController
 
-- (id) initWithParentViewController:(WEGenericTableViewController*) viewController
+- (id) initWithParentViewController:(WETableViewController*) viewController
 {
 	self = [super initWithParentViewController:viewController];
 	if (self != nil) {
-		_valueController = [[WEGenericAddressEditViewController alloc] initWithCellController:self];
+		_valueController = [[WEAddressEditViewController alloc] initWithCellController:self];
 	}
 	return self;
 }
