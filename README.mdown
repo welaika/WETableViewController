@@ -1,0 +1,15 @@
+WETableViewController
+=======
+
+WETableViewController is a set of classes built upon the standard UITableViewController that highly reduces the amount of code needed to generate table-like forms within iPhone apps.
+
+[![](http://farm5.static.flickr.com/4078/4812598622_854c2761ac_m.jpg)](http://farm5.static.flickr.com/4078/4812598622_854c2761ac_o.jpg)
+[![](http://farm5.static.flickr.com/4080/4811973505_0e2611d3b3_m.jpg)](http://farm5.static.flickr.com/4080/4811973505_0e2611d3b3_o.jpg)
+[![](http://farm5.static.flickr.com/4120/4811973591_2e236e5429_m.jpg)](http://farm5.static.flickr.com/4120/4811973591_2e236e5429_o.jpg)
+[![](http://farm5.static.flickr.com/4076/4812598928_9cd8ff66d9_m.jpg)](http://farm5.static.flickr.com/4076/4812598928_9cd8ff66d9_o.jpg)
+
+Adding WETableViewController to your project
+==============================
+
+1. Drop the whole WETableViewController within your XCode project, and include the desired classes.
+2. That's it.
